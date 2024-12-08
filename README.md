@@ -41,7 +41,7 @@ The system will be evaluated using standard retrieval metrics:
 ## Project Structure
 
 ```
-semart-multi-modal-retrieval/
+multi-modal-retrieval-semart/
 │
 ├── data_preprocessing.ipynb                                        # Script for preprocessing the dataset (images)
 ├── image_search.ipynb                                              # Script for evaluating retrieval performance
