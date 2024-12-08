@@ -43,10 +43,13 @@ The system will be evaluated using standard retrieval metrics:
 ```
 semart-multi-modal-retrieval/
 │
-├── data_preprocessing.py # Script for preprocessing the dataset (images)
-├── image_search.py       # Script for evaluating retrieval performance
-├── test_image/           # Folder containing the test images SemArt dataset
-└── README.md             # This README file
+├── data_preprocessing.ipynb              # Script for preprocessing the dataset (images)
+├── image_search.ipynb                    # Script for evaluating retrieval performance
+├── image_paths.csv                       # CSV containing the Image Path assignments for the retrieved similar indexes
+├── mega_embeddings.pkl                   # Stored embeddings for image retrieval for the entire dataset
+├── mega_problematic_images.csv           # CSV containing the corrupted images found in the dataset during preprocessing
+├── test_image/                           # Folder containing the test images SemArt dataset
+└── README.md                             # This README file
 ```
 
 ### Notes:
